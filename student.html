@@ -1,0 +1,127 @@
+
+
+<html>
+<head>
+<title>Student Registration Form</title>
+
+</head>
+<body>
+<form action="data1.php" method="POST">
+<h3>STUDENT REGISTRATION FORM</h3>
+
+ 
+<table align="center" cellpadding = "10">
+<tr>
+<td> NAME</td>
+<td><input type="text" name="Name" maxlength="30"required/>
+</td>
+</tr>
+ 
+<td>DATE OF BIRTH</td>
+<td>
+<td><input type="date" name="dob" maxlength="30"required/>
+</td>
+</tr>
+ 
+<tr>
+<td>EMAIL ID</td>
+<td><input type="email" name="Email_Id"pattern=[a-z0-9._%+_]+@[a-z0-9.-]+.[a-z] maxlength="100"required /></td>
+</tr>
+ 
+<tr>
+<td>MOBILE NUMBER</td>
+<td>
+<input type="text" name="Mobile_Number"pattern=[7-9]{1}[0-9]{9} maxlength="10" required/>
+(10 digit number)
+</td>
+</tr>
+ 
+<tr>
+<td>GENDER</td>
+<td>
+Male <input type="radio" name="Gender" value="Male"  required/>
+Female <input type="radio" name="Gender" value="Female"  required/>
+</td>
+</tr>
+ 
+<tr>
+<td>ADDRESS <br /><br /><br /></td>
+<td><textarea name="Address" rows="4" cols="30" required></textarea></td>
+</tr>
+
+<tr>
+<td>GUARDIAN NAME</td>
+<td><input type="text" name="Guardian_Name" maxlength="30" required/>
+</td>
+</tr>
+
+<tr>
+<td>MOBILE NUMBER</td>
+<td>
+<input type="text" name="G_Mobile_Number"pattern="[7-9]{1}[0-9]{9}" maxlength="13"required />
+(10 digit number)
+</td>
+</tr>
+
+<tr>
+<td>ADDRESS <br /><br /><br /></td>
+<td><textarea name="G_Address" rows="4" cols="30" required></textarea></td>
+</tr>
+ 
+<tr>
+<td>RANK</td>
+<td>
+<input type="text" name="Rank" maxlength="10" required />
+</td>
+</tr>
+
+<tr>
+<td>BRANCH</td>
+<td><input type="text" name="Branch" maxlength="30" required />
+</td>
+</tr>
+
+<tr>
+<td>RELIGION</td>
+<td><input type="text" name="Religion" maxlength="30"  required/>
+</td>
+</tr>
+
+<tr>
+<td>CASTE</td>
+<td><input type="text" name="Caste" maxlength="6" required />
+</td>
+</tr>
+ 
+<tr>
+<td>INCOME</td>
+<td><input type="text" name="Income" maxlength="12" required />
+</td>
+</tr>
+ 
+
+ <tr>
+<td>PLUS TWO MARKS</td>
+<td><input type="text" name="Mark" maxlength="12" value="total" required />
+</td>
+</tr>
+
+</table>
+ 
+</td>
+</tr>
+ 
+<!----- Submit and Reset ------------------------------------------------->
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+</FORM>
+ 
+</form>
+ 
+</body>
+</html>
